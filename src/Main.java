@@ -200,6 +200,10 @@ public class Main {
                 }
             }
 
+            else if(choice == 0){
+                System.exit(0);
+            }
+
             else{
                 System.out.println("Please enter a valid number!");
             }
